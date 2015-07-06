@@ -27,8 +27,8 @@ def Github():
 		print items
 
 def Dropbox():
-	app_key = '16506v00zkhe8ai'
-	app_secret = '57dxgdxo1grl03v'
+	app_key = #ADD APP KEY
+	app_secret = #ADD APP SECRET
 
 	flow = dropbox.client.DropboxOAuth2FlowNoRedirect(app_key, app_secret)
 
@@ -44,8 +44,8 @@ def Dropbox():
 	print 'linked account: ', client.account_info()
 
 def LinkedIn():
-	API_KEY = '75nx8e0q55ofz5'
-	API_SECRET = 'CUX6jnWGOeI3rbLm'
+	API_KEY = #ADD API KEY
+	API_SECRET = #ADD API SECRET
 	RETURN_URL = 'http://localhost:8000'
 
 	authentication = linkedin.LinkedInAuthentication(API_KEY, API_SECRET, RETURN_URL, linkedin.PERMISSIONS.enums.values())
